@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook - DigitalODS: El Arte del Cambio - Sesión 3</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        .header { background-color: #2196F3; color: white; text-align: center; padding: 10px; } /* Blue Accent */
+        .activity { margin-bottom: 20px; }
+        .banner {
+            background-color: #2196F3; /* Blue Accent */
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .content { display: none; padding: 10px; border: 1px solid #ddd; margin-bottom: 10px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+            vertical-align: top;
+        }
+        span[style*="color: red;"] {
+            font-weight: bold;
+        }
+         ul, ol {
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .time-title { margin-bottom: 20px; text-align: center; font-size: 1.2em; color: #555;} /* Style for static title */
+    </style>
+    <script>
+        function toggleContent(id) {
+            const content = document.getElementById(id);
+            if (content) {
+                content.style.display = content.style.display === "none" ? "block" : "none";
+            }
+        }
+
+        // Initialize content hidden state on load
+        window.onload = () => {
+             // Ensure all content starts hidden
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => {
+                content.style.display = 'none';
+            });
+        };
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Playbook - Taller: DigitalODS: El Arte del Cambio (2º Primaria) - Sesión 3</h1>
+    </div>
+    <div class="container">
+        <!-- Static Time Title -->
+        <h2 class="time-title">Tiempo efectivo de clase: 40 minutos (Estimado)</h2>
+
+        <!-- De un Vistazo y Preparación Previa -->
+        <div id="activity-0" class="activity">
+            <div class="banner" onclick="toggleContent('activity_0_content')">
+                <div class="title">📝 De un Vistazo: Sesión 3</div>
+            </div>
+            <div id="activity_0_content" class="content">
+                <table>
+                    <tr>
+                        <td style="width: 50%; padding: 10px; border-right: 1px solid #ddd;">
+                            <strong>🎯 Objetivos:</strong>
+                            <ul>
+                                <li>Seleccionar la idea de arte interactivo a desarrollar por el equipo (basada en las favoritas individuales).</li>
+                                <li>Definir la interacción principal del arte (cómo responde al usuario) usando Back and Forth.</li>
+                                <li>Visualizar la secuencia de la interacción principal a través de un storyboard simple de 3 pasos.</li>
+                            </ul>
+                            <strong>💡 Tácticas Principales:</strong> Back and Forth (Adaptado: ¿Qué Pasa Si...?), Storyboard (Adaptado: 3 Pasos).
+                            <br><br>
+                            <strong>🔑 Entregable Clave:</strong> Storyboard de 3 viñetas por equipo (o pares) que visualiza la interacción principal.
+                        </td>
+                        <td style="width: 50%; padding: 10px;">
+                            <strong>🛠️ Materiales Específicos:</strong>
+                            <ul>
+                                <li>Proyector o pantalla interactiva.</li>
+                                <li>Presentación de diapositivas (Diapositivas 18-22 detalladas abajo).</li>
+                                <li>Acceso a tablero Miro (o similar) con espacio para cada equipo, o rotafolios/papel grande.</li>
+                                <li>Hojas de Crazy Eights de la sesión anterior (con la idea favorita marcada).</li>
+                                <li>Hojas blancas o plantillas de storyboard (3 cuadros).</li>
+                                <li>Lápices, marcadores, colores.</li>
+                            </ul>
+                             <strong>🔧 Preparación Previa para ESTA Sesión:</strong>
+                            <ol>
+                                <li><strong>Presentación Lista:</strong> Tener listas las Diapositivas 18 a 22.</li>
+                                <li><strong>Material Storyboard:</strong> Preparar hojas blancas o plantillas simples con 3 cuadros grandes para el storyboard.</li>
+                                <li><strong>Espacio de Trabajo:</strong> Asegurarse de que los equipos tengan acceso a sus ideas favoritas de la Sesión 2 y espacio (digital o físico) para trabajar en equipo y dibujar los storyboards.</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Desarrollo de la Sesión -->
+
+        <!-- Actividad 1: Recap y Selección de Idea de Equipo -->
+        <div id="activity-1" class="activity" data-time="3">
+            <div class="banner" onclick="toggleContent('activity_1_content')">
+                <div class="title">🔄 Actividad 1: Recap y Selección de Idea de Equipo ⏰ Tiempo: 3 minutos</div>
+            </div>
+            <div id="activity_1_content" class="content">
+                <table>
+                    <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Paso 1:</strong> Proyectar la <strong>Diapositiva 18</strong>: "¡Sesión 3: Dando Vida a Nuestro Arte!". Mostrar título, imagen (boceto convirtiéndose en algo animado/manos dibujando secuencia) y texto introductorio.
+                        </td>
+                        <td>
+                            "¡Artistas digitales, de vuelta para la Sesión 3! En la sesión pasada, cada uno eligió su 'idea estrella' ⭐ de arte interactivo con su pegatina dorada. ¡Fue genial ver tanta creatividad!"
+                            <br><br>
+                            "Hoy vamos a hacer dos cosas súper importantes: Primero, como equipo, decidirán cuál de sus ideas favoritas van a desarrollar juntos. Luego, ¡vamos a imaginar y dibujar exactamente CÓMO funcionará la interacción en su obra de arte!"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Paso 2:</strong> Guiar la selección de la idea del equipo.
+                        </td>
+                        <td>
+                            "Miren sus ideas favoritas de la sesión pasada (las que tienen la estrella). Como equipo, hablen rápido y elijan UNA idea que más les guste a todos para trabajarla juntos hoy. ¡La idea estrella del equipo!"
+                            <br><br>
+                            <em>(Dar 1 minuto para que decidan).</em>
+                             <br><br>
+                             "¿Listo equipo 1? ¿Cuál es su idea estrella? ¿Equipo 2?... ¡Perfecto!"
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 2: Táctica 6: ¿Qué Pasa Si...? (Back and Forth - Verbal y Dibujado) -->
+        <div id="activity-2" class="activity" data-time="15">
+            <div class="banner" onclick="toggleContent('activity_2_content')">
+                <div class="title">❓ Actividad 2: Táctica 6: ¿Qué Pasa Si...? (Back and Forth) ⏰ Tiempo: 15 minutos</div>
+            </div>
+            <div id="activity_2_content" class="content">
+                <table>
+                     <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Paso 1:</strong> Proyectar la <strong>Diapositiva 19</strong>: "¡Nivel 5! ¿Qué Pasa Si...? - ¡Descubriendo la Magia Interactiva!". Mostrar título, instrucción con preguntas/respuestas, iconos (❓❗), imagen de mano interactuando con dibujo.
+                        </td>
+                        <td>
+                            "¡Muy bien! Ya tienen la idea de arte de su equipo. Ahora, ¡vamos a descubrir su magia interactiva con la táctica '¿Qué Pasa Si...?'! Vamos a jugar a ser los primeros usuarios de su obra de arte."
+                            <br><br>
+                            "Imaginen que alguien está viendo su arte en la pantalla. ¿Cuál es la parte más importante o interesante para tocar o hacer clic? Pónganse de acuerdo en una o dos partes clave."
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <strong>Paso 2:</strong> Guiar la dinámica de pregunta-respuesta y registro.
+                        </td>
+                        <td>
+                             "Ahora, pregunten en voz alta como equipo: '¿Qué pasa si alguien hace clic en [esa parte]?' Y luego, respondan ustedes mismos como si fueran el arte o el programa Scratch: '¡Entonces [describan qué sucede]!' ¿Cambia de color? ¿Hace un sonido? ¿Se mueve un personaje? ¿Aparece un mensaje?"
+                             <br><br>
+                            "¡Hablen sobre 1 o 2 interacciones importantes! Cuando tengan clara la respuesta, ¡dibújenla o escríbanla rápidamente en su tablero Miro o papel! Queremos saber: Clic aquí -> Pasa esto."
+                            <br><br>
+                            <em>(Facilitar la discusión en equipos. Ayudarles a enfocarse en una interacción CLARA y relacionada con el mensaje ODS y las posibilidades de Scratch. Deben definir la CAUSA (clic/tocar) y el EFECTO (cambio/sonido/movimiento)).</em>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                           <strong>Paso 3:</strong> Proyectar la <strong>Diapositiva 20</strong>: "¡Interacción de Voices for Change!". Mostrar los ejemplos de preguntas/respuestas con dibujos/descripciones como guía.
+                        </td>
+                        <td>
+                            "¡Ahora venía una parte súper divertida! Los creadores de 'Voices for Change' ya tenían su idea favorita: el Paisaje Geométrico. Pero se preguntaron: '¿Qué Pasa Si...?' ¡Jugaron a ser exploradores dentro de su propia idea! Hicieron preguntas como si fueran ustedes jugando:"
+                             <br><br>
+                            "Primero, se dibujaron a sí mismos como una pequeña figura en su paisaje de triángulos. Luego se preguntaron:"
+                            <br><br>
+                            <em>(Leer la Diapositiva 20, mostrando los ejemplos):</em>
+                             <br>
+                            *   **Pregunta:** "¿Qué pasa si camino hacia esa luz brillante?"
+                            *   **Dibujo/Respuesta:** (Figura más cerca de la luz, luz más grande y brillante, oreja con ondas de sonido suaves entrando). "¡Brilla más y se oye un susurro!"
+                             <br>
+                            *   **Pregunta:** "¿Qué pasa si me paro JUSTO encima de la luz?"
+                            *   **Dibujo/Respuesta:** (Figura sobre la luz con rayos saliendo, nube de diálogo grande "¡Cuidemos el agua!" y carita feliz). "¡Se oye fuerte la voz y aparece un mensaje!"
+                             <br>
+                            *   **Pregunta:** "¿Qué pasa si me acerco a ese pájaro de triángulos?"
+                            *   **Dibujo/Respuesta:** (Figura cerca del pájaro geométrico, pájaro con flecha saliendo apuntando a otra luz lejana). "¡El pájaro te guía a la siguiente voz!"
+                             <br><br>
+                            "¡Sigan definiendo las interacciones de su propia idea!"
+                             <br><br>
+                             <em>(Consejo Maestro: Asegúrate de que definan una acción del usuario (causa) y una reacción clara del arte (efecto) que sea factible en Scratch (ej. clic -> sonido, clic -> cambio disfraz, acercarse -> mensaje)).</em>
+                        </td>
+                    </tr>
+                     <tr>
+                         <td>
+                            <strong>Paso 4:</strong> Concluir la actividad. Marcar el entregable parcial.
+                         </td>
+                        <td>
+                            "¡Excelente! Ya tienen más claro cómo funcionará la magia de su arte."
+                            <br><br>
+                            <em>(Entregable Parcial: Descripción/dibujo simple de 1-2 interacciones clave por equipo).</em>
+                         </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 3: Táctica 7: Mi Arte en Acción (Storyboard 3 Pasos) -->
+        <div id="activity-3" class="activity" data-time="15">
+            <div class="banner" onclick="toggleContent('activity_3_content')">
+                 <div class="title">🎬 Actividad 3: Táctica 7: Mi Arte en Acción (Storyboard 3 Pasos) ⏰ Tiempo: 15 minutos</div>
+            </div>
+            <div id="activity_3_content" class="content">
+                 <table>
+                     <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                             <strong>Paso 1:</strong> Proyectar la <strong>Diapositiva 21</strong>: "¡Nivel 6! Mi Arte en Acción - ¡La Historia en 3 Dibujos!". Mostrar título, instrucción y las 3 escenas (ANTES, ACCIÓN, DESPUÉS) con los ejemplos de Voice of Change. Entregar hojas/plantillas de storyboard.
+                        </td>
+                        <td>
+                            "¡Genial! Ya saben qué pasa cuando alguien interactúa con su arte. Ahora, ¡vamos a contar esa historia en 3 dibujos con la táctica 'Mi Arte en Acción'! Es como hacer una mini-película de su interacción."
+                            <br><br>
+                             "Tomen una hoja o usen la plantilla en Miro. Van a dibujar 3 cuadros:"
+                              <br><br>
+                             "**Cuadro 1: ANTES.** ¿Cómo se ve su obra de arte interactiva al principio, antes de que nadie la toque?"
+                              <br>
+                             <em>(Mostrar ejemplo ANTES de Voice of Change: Paisaje geométrico, figura pequeña lejos, luz pequeña lejos, camino punteado).</em>
+                              <br><br>
+                             "**Cuadro 2: LA ACCIÓN.** ¿Qué hace la persona? ¿Dónde hace clic? ¿Qué botón toca? ¡Dibujen la interacción!"
+                              <br>
+                             <em>(Mostrar ejemplo Interacción de Voice of Change: Paisaje igual, figura MUY cerca de la luz, luz más grande/brillante con rayitas, ondas de sonido saliendo).</em>
+                              <br><br>
+                             "**Cuadro 3: DESPUÉS.** ¿Cómo cambia el arte? ¿Qué sonido hace? ¿Qué mensaje aparece? ¡Dibujen el resultado de la interacción! (¡El efecto!)"
+                              <br>
+                            <em>(Mostrar ejemplo interacción Voice of Change: Figura sobre la luz rodeada de aura/rayos, nube de diálogo "¡Salvemos el planeta!", ondas de sonido claras. Opcional: recuadro con icono de persona + "Kenya").</em>
+                             <br><br>
+                            "¡Concéntrense en la interacción principal que definieron antes! ¡Hagan dibujos claros para que todos entiendan la historia de su arte interactivo!"
+                             <br><br>
+                            <em>(Pueden trabajar individualmente en el storyboard y luego compartirlo con el equipo, o hacerlo en pares dentro del equipo. Circular y ayudar a visualizar la secuencia).</em>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <strong>Paso 2:</strong> Concluir la actividad. Marcar el entregable.
+                        </td>
+                         <td>
+                            "¡Fantástico! ¡Ya tienen la película de su arte interactivo!"
+                             <br><br>
+                             <em>(Entregable Clave: Storyboard de 3 viñetas por equipo (o pares) que visualiza la interacción principal).</em>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 4: Puesta en Común y Cierre -->
+        <div id="activity-4" class="activity" data-time="10">
+            <div class="banner" onclick="toggleContent('activity_4_content')">
+                <div class="title">📣 Actividad 4: Puesta en Común y Cierre ⏰ Tiempo: 10 minutos</div>
+            </div>
+            <div id="activity_4_content" class="content">
+                 <table>
+                     <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                             <strong>Paso 1:</strong> Facilitar una ronda rápida de presentación de storyboards. Proyectar <strong>Diapositiva 22</strong> (opcional, puede ser genérica de cierre o sin diapositiva).
+                        </td>
+                        <td>
+                            "¡Tiempo! ¡Increíbles historias interactivas en 3 pasos! Vamos a hacer una ronda súper rápida. Cada equipo, muestre su storyboard y cuéntennos en una frase: ¿Qué pasa en su arte interactivo?"
+                             <br><br>
+                            <em>(Cada equipo comparte muy brevemente (30 segundos) su storyboard y la interacción principal).</em>
+                        </td>
+                    </tr>
+                     <tr>
+                         <td>
+                           <strong>Paso 2:</strong> Cerrar la sesión y anticipar la siguiente.
+                         </td>
+                        <td>
+                           "¡Fantástico! ¡Han definido el corazón interactivo de su arte! Ya sabemos qué hará y cómo se verá."
+                           <br><br>
+                           "En la última sesión, la Sesión 4, vamos a tomar todo esto (su idea, su interacción, su storyboard) y crearemos el <strong>Prototipo Conceptual final en papel</strong> usando el T-Bar. ¡Será el mapa definitivo para luego construirlo en Scratch!"
+                           <br><br>
+                           "¡Guarden sus storyboards! ¡Son la clave para la sesión final! ¡Gran trabajo, artistas interactivos! ¡Nos vemos para el gran final!"
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div> <!-- Fin del container -->
+</body>
+</html>
